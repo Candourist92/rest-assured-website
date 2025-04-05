@@ -679,3 +679,686 @@
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
 }
+
+.our-services .service-card:hover .inner-wrapper {
+  background-color: #0d968b; /* Change background to teal on hover */
+  transition: background-color 0.3s ease;
+}
+
+.our-services .service-card:hover .service-icons {
+  filter: brightness(0) invert(1); /* Make the icon white */
+  transition: filter 0.3s ease;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 100px 161px;
+  position: relative;
+}
+
+.pricing .inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 59px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.pricing .title-section {
+  width: 840px;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.pricing .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Plus Jakarta Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #042220;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0.40px;
+  line-height: 40px;
+}
+
+.pricing .div {
+  position: relative;
+  align-self: stretch;
+  font-family: "Plus Jakarta Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #6f807f;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 30px;
+}
+
+.pricing .plan-section {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 28px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.pricing .div-2 {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  height: 680px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 60px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: 1px solid;
+  border-color: #d9d9d9;
+}
+
+.pricing .div-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.pricing .title {
+  align-items: flex-start;
+  gap: 6px;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.pricing .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Plus Jakarta Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #053d39;
+  font-size: 24px;
+  letter-spacing: 0.24px;
+  line-height: 36px;
+}
+
+.pricing .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Plus Jakarta Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #8b9998;
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  line-height: 18px;
+}
+
+.pricing .title-points {
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.pricing .price-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.pricing .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Plus Jakarta Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #042220;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.pricing .text-wrapper-5 {
+  align-self: stretch;
+  font-family: "Plus Jakarta Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #0d968b;
+  font-size: 18px;
+  line-height: 27px;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.pricing .points {
+  width: 252px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.pricing .check-point {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.pricing .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.pricing .text-wrapper-6 {
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Plus Jakarta Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #08554e;
+  font-size: 16px;
+  line-height: 24px;
+  white-space: nowrap;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.pricing .primary-btn-medium {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  height: 52px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #0d968b;
+  border-radius: 64px;
+}
+
+.pricing .primary-button {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  font-family: "Plus Jakarta Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  line-height: 17.3px;
+  white-space: nowrap;
+}
+
+.pricing .standard-plan {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  height: 680px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 60px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: 1px solid;
+  border-color: #1ba04d66;
+  box-shadow:
+    0px 11px 25px #0000000a, 0px 46px 46px #0000000a, 0px 103px 62px #00000005, 0px 184px 73px #00000003, 0px 287px 80px transparent;
+}
+
+.pricing .text-wrapper-7 {
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Plus Jakarta Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #08564f;
+  font-size: 16px;
+  line-height: 24px;
+  white-space: nowrap;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.pricing .check-point-2 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.pricing .most-popular-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 16px;
+  position: absolute;
+  top: -19px;
+  left: 158px;
+  background-color: #1ba04d;
+  border-radius: 50px;
+}
+
+.pricing .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Plus Jakarta Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 17.3px;
+  white-space: nowrap;
+}
+
+.pricing .points-2 {
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.pricing .frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 60px 0px 28px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.pricing .p {
+  position: relative;
+  width: 828px;
+  margin-top: -1.00px;
+  font-family: "Plus Jakarta Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #8b9998;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+}
+
+.pricing .div-2,
+.pricing .standard-plan {
+  border: 1px solid #dadada; /* light gray */
+  box-shadow: none;
+  transition: box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+}
+
+.pricing .div-2:hover,
+.pricing .standard-plan:hover {
+  border-color: rgba(27, 160, 77, 0.4); /* Green stroke at 40% opacity */
+  box-shadow:
+    0px 11px 25px rgba(0, 0, 0, 0.05),
+    0px 46px 46px rgba(0, 0, 0, 0.05),
+    0px 103px 62px rgba(0, 0, 0, 0.03),
+    0px 184px 73px rgba(0, 0, 0, 0.02),
+    0px 287px 80px transparent;
+  transform: translateY(-6px);
+}
+
+/* Main container */
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+/* Frame Wrapper */
+.how-it-works .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1600px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 100px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #f3f5f7;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+/* Frame */
+.how-it-works .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+/* Title Section */
+.how-it-works .title-section {
+  display: flex;
+  flex-direction: column;
+  width: 840px;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.how-it-works .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Plus Jakarta Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #042220;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.how-it-works .div {
+  position: relative;
+  width: 652px;
+  font-family: "Plus Jakarta Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #8b9998;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 30px;
+}
+
+/* Additional Frames */
+.how-it-works .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.how-it-works .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+/* Connectors and Images */
+.how-it-works .connector {
+  position: absolute;
+  left: 44px;
+  top: 18px;
+  width: 314px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.how-it-works .img {
+  position: absolute;
+  left: 410px;
+  top: 18px;
+  width: 314px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.how-it-works .connector-2 {
+  position: absolute;
+  left: 776px;
+  top: 18px;
+  width: 314px;
+  height: 1px;
+  object-fit: cover;
+}
+
+/* Frame 4 */
+.how-it-works .frame-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 330px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+/* Count badge */
+.how-it-works .count {
+  display: flex;
+  flex-direction: column;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 3px 14px;
+  position: relative;
+  background-color: #d8d8d8;
+  border-radius: 18px;
+}
+
+.how-it-works .text-wrapper-2 {
+  width: 24px;
+  margin-left: -8.00px;
+  margin-right: -8.00px;
+  position: relative;
+  font-family: "Plus Jakarta Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #212121;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.18px;
+  line-height: 27px;
+}
+
+.how-it-works .text-wrapper-3 {
+  width: 26px;
+  margin-left: -9.00px;
+  margin-right: -9.00px;
+  position: relative;
+  font-family: "Plus Jakarta Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #212121;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.18px;
+  line-height: 27px;
+}
+
+/* Frame 5 */
+.how-it-works .frame-5 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+/* Frame 6 */
+.how-it-works .frame-6 {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+/* Works Card Wrapper */
+.how-it-works .works-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 314px;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 30px;
+}
+
+/* Card Content */
+.how-it-works .div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  padding: 28px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+/* Icon Section */
+.how-it-works .icon {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.how-it-works .icon-circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #b4faf4;
+  border-radius: 50px;
+}
+
+.how-it-works .how-it-works-card {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 26px;
+  left: 26px;
+}
+
+/* Text Content Section */
+.how-it-works .text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.how-it-works .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Plus Jakarta Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #042220;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.20px;
+  line-height: 40px;
+}
+
+.how-it-works .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Plus Jakarta Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #8b9998;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+}
+
+/* How It Works Wrapper */
+.how-it-works .how-it-works-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  border-radius: 30px;
+}
+
+/* Hover effect for How It Works cards */
+.how-it-works .works-card-wrapper .div-2:hover,
+.how-it-works .how-it-works-wrapper .div-2:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for the icon background */
+.how-it-works .works-card-wrapper .div-2:hover .icon-circle,
+.how-it-works .how-it-works-wrapper .div-2:hover .icon-circle {
+  background-color: #0d968b; /* Teal background on hover */
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect to make the icon white */
+.how-it-works .works-card-wrapper .div-2:hover .how-it-works-card,
+.how-it-works .how-it-works-wrapper .div-2:hover .how-it-works-card {
+  filter: brightness(0) invert(1); /* Make the SVG icon white */
+  transition: filter 0.3s ease;
+}
